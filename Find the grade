@@ -1,0 +1,19 @@
+import "dart:io";
+void main(){
+    print("Enter the grade:");
+    String n=stdin.readLineSync();
+    print("The grade is ${n}");
+    switch(n){
+        case "A": print("Excellent");
+            break;
+        case "B":print("Very good");
+            break;
+        case "C":print("Good");
+            break;
+        case "D": print("Need to improve");
+            break;
+        default:
+            print("Wrong input");
+    break;
+    }
+}
